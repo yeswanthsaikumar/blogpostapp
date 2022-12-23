@@ -11,7 +11,7 @@ function MainPage() {
   return (
     <>
       {loginID ? (
-        <span>{`${loginID}님 환영합니다.`}</span>
+        <span>{`${loginID}loginid.`}</span>
       ) : (
         <LoginPage loginHandler={loginHandler} />
       )}

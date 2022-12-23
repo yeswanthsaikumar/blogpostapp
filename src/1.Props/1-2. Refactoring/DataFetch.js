@@ -20,7 +20,7 @@ function DataFetch({ getData }) {
 
   return (
     <>
-      <button onClick={onClick}> 데이터 받아오기 </button>
+      <button onClick={onClick}> save </button>
     </>
   );
 }

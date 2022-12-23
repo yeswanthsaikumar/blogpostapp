@@ -43,7 +43,6 @@ export default function Modal() {
           console.log("modal on");
         }}
       >
-        모달 생성
       </button>
     </>
   );

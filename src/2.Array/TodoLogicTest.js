@@ -20,8 +20,8 @@ export const TodoLogicTest = () => {
       {testArray.map((data, index) => (
         <div key={index + 223}>
           <div>id : {data.id}</div>
-          <div>컨텐츠 : {data.contents}</div>
-          <div>카테고리 : {data.category}</div>
+          <div>content: {data.contents}</div>
+          <div>category: {data.category}</div>
           <button
             onClick={() => {
               onCategoryChange("done", index);

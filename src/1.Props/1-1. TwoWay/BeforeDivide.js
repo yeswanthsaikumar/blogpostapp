@@ -19,10 +19,10 @@ function BeforeDivide() {
         <span>{userName}</span>
       ) : (
         <div>
-          <span>닉네임을 입력해 주세요.</span>
+          <span></span>
           <form onSubmit={onSubmit}>
             <input onChange={onChange} />
-            <button>제출</button>
+            <button>save</button>
           </form>
         </div>
       )}

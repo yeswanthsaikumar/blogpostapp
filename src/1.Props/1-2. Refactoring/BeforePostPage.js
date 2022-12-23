@@ -34,7 +34,7 @@ function BeforePostPage() {
         ))}
 
       <button onClick={getData} style={{ margin: "20px" }}>
-        데이터 받아오기
+      
       </button>
     </>
   );
